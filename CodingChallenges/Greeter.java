@@ -1,4 +1,4 @@
-package CodingChallenges;
+package codingchallenges;
 
 public class Greeter { // this is a class declaration
 

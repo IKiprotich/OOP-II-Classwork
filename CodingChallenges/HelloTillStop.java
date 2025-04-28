@@ -1,3 +1,5 @@
+package codingchallenges;
+
 import java.util.*;
 
 class HelloUntilStop {
