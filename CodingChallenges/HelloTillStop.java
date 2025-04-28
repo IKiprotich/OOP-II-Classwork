@@ -1,6 +1,6 @@
 import java.util.*;
 
-class HelloTillStop {
+class HelloUntilStop {
     Scanner sc = new Scanner(System.in);
 
     // Outputs hello when the user wants to
@@ -19,7 +19,7 @@ class HelloTillStop {
     }
 
     public static void main(String[] args) {
-        HelloTillStop helloTillStop = new HelloTillStop();
-        helloTillStop.showHello();
+        HelloUntilStop helloUntilStop = new HelloUntilStop();
+        helloUntilStop.showHello();
     }
 }
