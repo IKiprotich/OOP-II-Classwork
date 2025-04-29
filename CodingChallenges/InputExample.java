@@ -1,20 +1,22 @@
+//Challenge number: 4
 package codingchallenges;
 
 import java.util.Scanner;
 
 
 class InputExample {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object to read input AND CONNNECT TO THE CONSOLE
 
         System.out.print("Enter your name: "); // Prompt the user for their name
-        String name = scanner.nextLine(); // Read a string input
+        String name = scanner.nextLine(); 
 
         System.out.print("Enter your age: "); // Prompt the user for their age
-        int age = scanner.nextInt(); // Read an integer input
+        int age = scanner.nextInt(); 
 
-        System.out.print("Enter your height in meters: "); // Prompt the user for their height
-        double height = scanner.nextDouble(); // Read a double input
+        System.out.print("Enter your height in meters: "); 
+        double height = scanner.nextDouble(); 
 
         System.out.println("Hello, " + name + "! You are " + age + " years old and " + height + " meters tall."); // Print the collected information
 

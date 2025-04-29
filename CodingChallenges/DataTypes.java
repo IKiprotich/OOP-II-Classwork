@@ -1,15 +1,16 @@
+//Challenge number: 2
 package codingchallenges;
 
 
 public class DataTypes {
     void showInterest(){
-        double amount; // principal amount
-        double rate; // interest rate
+        double amount; 
+        double rate; 
 
         amount = 1200.00; // principal amount initialization
         System.out.println("Principal Amount: " + amount);
 
-        rate = 3.00; // interest rate
+        rate = 3.00; 
         amount = amount * (amount + rate )/ 100; // calculate interest
         System.out.println("after a year: " + amount); // print the amount after a year
 
@@ -18,7 +19,7 @@ public class DataTypes {
     }
 
     public static void main(String[] args) {
-        DataTypes dt = new DataTypes(); // create an instance of the class
-        dt.showInterest(); // call the showInterest method
+        DataTypes dt = new DataTypes(); 
+        dt.showInterest(); 
     }
 }
