@@ -1,6 +1,4 @@
 //Challenge number: 2
-package codingchallenges;
-
 
 public class DataTypes {
     void showInterest(){

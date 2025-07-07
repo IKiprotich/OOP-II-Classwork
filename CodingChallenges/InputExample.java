@@ -1,5 +1,4 @@
 //Challenge number: 4
-package codingchallenges;
 
 import java.util.Scanner;
 

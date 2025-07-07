@@ -1,5 +1,4 @@
 //Challenge number: 3
-package codingchallenges;
 
 public class Choices {
     public static void main(String[] args) {

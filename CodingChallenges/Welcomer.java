@@ -1,5 +1,4 @@
 //Challenge number: 1
-package codingchallenges;
 
 public class Welcomer { // this is a class declaration
 
