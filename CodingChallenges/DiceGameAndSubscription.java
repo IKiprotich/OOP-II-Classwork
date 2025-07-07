@@ -1,4 +1,4 @@
-package codingchallenges;
+package Challenges;
 
 import java.util.Random;
 
